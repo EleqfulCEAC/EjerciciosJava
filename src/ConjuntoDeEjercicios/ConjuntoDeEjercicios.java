@@ -225,6 +225,16 @@ public class ConjuntoDeEjercicios {
 		
 		System.out.println("El numero que haz introducido tiene " + counter + " cifras" );
 		
+		System.out.println("Deseas mostrarlo con las cifras al reves?");
+		boolean flag = BooleanInput();
+		
+		if(flag) {
+			String sortedNumber = number.substring(number.length(), -1);
+			System.out.println(sortedNumber);
+		} 
+		
+		
+		
 		
 		
 	}
@@ -252,6 +262,16 @@ public class ConjuntoDeEjercicios {
 		double num = sc.nextDouble();
 		
 		return num;
+		
+	}
+	
+	public static boolean BooleanInput() {
+		
+		Scanner sc = new Scanner (System.in); 
+		System.out.println("Elige true o false");
+		boolean flag = sc.hasNextBoolean();
+		
+		return flag;
 		
 	}
 	
