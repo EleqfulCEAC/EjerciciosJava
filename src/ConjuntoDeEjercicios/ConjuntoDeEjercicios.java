@@ -220,7 +220,6 @@ public class ConjuntoDeEjercicios {
 		System.out.println("El numero tiene que ser entre 0 y 9.999");
 		int num = inputOfNumbers(); 
 		String number = String.valueOf(num);
-		System.out.println(number);
 		int counter = number.length(); 
 		
 		System.out.println("El numero que haz introducido tiene " + counter + " cifras" );
@@ -228,9 +227,15 @@ public class ConjuntoDeEjercicios {
 		System.out.println("Deseas mostrarlo con las cifras al reves?");
 		boolean flag = BooleanInput();
 		
+		
 		if(flag) {
-			String sortedNumber = number.substring(number.length(), -1);
-			System.out.println(sortedNumber);
+			
+			for (int i = number.length(); i > 0; i--) {
+				char sortedNumber = number.charAt(i -1);
+				System.out.print(sortedNumber);
+				
+			}
+			
 		} 
 		
 		
