@@ -12,6 +12,9 @@ public class ConjuntoDeEjercicios {
 		System.out.println("Opcion 5: Ordenando dos numeros de mayor a menor" );
 		System.out.println("Opcion 6: ordenando tres numeros de mayor a menor" );
 		System.out.println("Opcion 7: introduce un numero y te dire cue" );
+		System.out.println("Opcion 8: puntuacion por rangos" );
+		System.out.println("Opcion 9: Obten la suma total de 10 numeros" );
+		
 		
 		
 		
@@ -48,6 +51,13 @@ public class ConjuntoDeEjercicios {
 		case 7: {
 			howChartsHasThisNumber();
 			break;
+		} 
+		case 8:{
+			pointScale();
+		}
+		case 9:{
+			totalOfTenNumbers();
+			
 		}
 		
 		
@@ -221,6 +231,8 @@ public class ConjuntoDeEjercicios {
 		int num = inputOfNumbers(); 
 		String number = String.valueOf(num);
 		int counter = number.length(); 
+		String ReversedNumber = "";
+		char sortedNumber = ' ';
 		
 		System.out.println("El numero que haz introducido tiene " + counter + " cifras" );
 		
@@ -231,9 +243,29 @@ public class ConjuntoDeEjercicios {
 		if(flag) {
 			
 			for (int i = number.length(); i > 0; i--) {
-				char sortedNumber = number.charAt(i -1);
+				 sortedNumber = number.charAt(i -1);
 				System.out.print(sortedNumber);
+				flag = !flag;
 				
+			}
+			
+			System.out.println("Deseas ver si es capicua con las cifras al reves?");
+			flag = BooleanInput();
+			
+			if(flag) {
+			
+			for (int j = number.length(); j > 0; j--) {
+				char numero = sortedNumber;
+				
+				String totalNumber = String.valueOf(numero);
+				
+				ReversedNumber = ReversedNumber + totalNumber;
+				
+				System.out.println("El numero a comparar es:" + ReversedNumber);
+				
+				
+			}
+			
 			}
 			
 		} 
@@ -244,6 +276,45 @@ public class ConjuntoDeEjercicios {
 		
 	}
 	
+	
+	public static void pointScale() {
+		System.out.println("Introduce la puntuacion del 1-10 que crees que tienes en desarrollo de java");
+		int points = inputOfNumbers();
+		
+		if (points >= 0 && points < 2) { System.out.println("Puntuacion insuficiente");}
+		if (points >= 2 && points < 4) { System.out.println("Puntuacion regular");}
+		if (points >= 4 && points < 6) { System.out.println("Buena puntuacion, pero mejorable");}
+		if (points >= 6 && points < 8) { System.out.println("Puntuacion bastante buena");}
+		if (points >= 8 && points <= 10) { System.out.println("Excelente puntuacion");}
+		
+
+			
+		
+		
+	}
+	
+	public static void totalOfTenNumbers() {
+		System.out.println("Esta opcion te pedira que introduzcas 10 numeros enteros y te devolvera la suma total de los 10 numeros");
+		
+		int finalNumber = 0;
+		
+		for (int i = 0; i < 10; i++) {
+			int num = inputOfNumbers();
+			
+			int totalNumber = num;
+			
+			finalNumber = finalNumber + totalNumber;
+			
+			
+			
+		}
+		
+		System.out.println(finalNumber);
+	
+		
+		
+		
+	}
 	//Global functions 
 	
 	
