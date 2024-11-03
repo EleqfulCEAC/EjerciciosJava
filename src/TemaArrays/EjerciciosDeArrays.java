@@ -33,6 +33,16 @@ public class EjerciciosDeArrays {
 			
 		}
 		
+		case 4: {
+			Ejercicio4();
+			break;
+		}
+		
+		case 5:{
+			Ejercicio5();
+			break;
+		}
+		
 		}
 	
 		
@@ -109,6 +119,36 @@ public class EjerciciosDeArrays {
 		
 		
 	}
+	
+	
+	public static void Ejercicio4() {
+		// 4. Crea un array de 5 enteros y llénalo con valores. Imprime el array en orden inverso.
+		
+		int [] numArray = generadorDeArray(5, 30); 
+		
+				for (int i = numArray.length; i > 0; i--) {
+					
+					System.out.print(numArray[i-1] + " ");
+					
+				}
+		
+	} 
+	
+	
+	public static void Ejercicio5() {
+		// 5. Crea un array de enteros de tamaño 10 y encuentra el número mayor y el menor del array.
+
+		
+		int [] numArray = generadorDeArray(10, 1000); 
+		Arrays.sort(numArray);
+
+		int numMinus = numArray[0];
+		int numMax = numArray[9];
+				 
+		System.out.println("El numero mayor del array es: " + numMax + " y el numero menor del array es: " + numMinus);
+		
+	}
+
 	
 //Global functions: 	
 	
