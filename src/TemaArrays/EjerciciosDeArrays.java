@@ -42,6 +42,14 @@ public class EjerciciosDeArrays {
 			Ejercicio5();
 			break;
 		}
+		case 6: {
+			Ejercicio6();
+		}
+		
+		case 7: {
+			Ejercicio7();
+			
+		}
 		
 		}
 	
@@ -146,6 +154,60 @@ public class EjerciciosDeArrays {
 		int numMax = numArray[9];
 				 
 		System.out.println("El numero mayor del array es: " + numMax + " y el numero menor del array es: " + numMinus);
+		
+	} 
+	
+	public static void Ejercicio6() {
+		//6. Declara un array de enteros y un número cualquiera. Escribe un programa que cuente cuántas veces aparece ese número en el array.
+			
+		
+			int [] intArray = generadorDeArray(50, 10); 
+			int numToCompare = 5;
+			int contador = 0; 
+			
+			
+			for (int i = 0; i < intArray.length; i++) {
+				if(intArray[i] == numToCompare) {
+					
+					contador++;
+					
+				}
+				
+			}
+			
+			System.out.println("el numero " + numToCompare + " Aparece " + contador + " veces en este array");	
+	}
+	
+	
+public static void Ejercicio7() {
+		String [] boxOfNames = new String [5];
+		Scanner input = new Scanner(System.in);
+		
+		for (int i = 0; i < boxOfNames.length; i++) {
+			System.out.println("Introduce el nombre numero " + i + " que estara en el array");
+			String Name = input.next(); 
+		    boxOfNames[i] = Name;
+		
+		}
+		System.out.println("introduce el nombre que deseas verificar");
+		String NameToCompare = input.next();
+		String savedname = " ";
+		
+		for (int i = 0; i < boxOfNames.length; i++) {
+			savedname = boxOfNames[i];
+			if(savedname == NameToCompare) {
+				System.out.println("El nombre " + NameToCompare + " si se encuentra dentro del array");	
+				break;
+			} else {
+				System.out.println(savedname);
+				System.out.println("No se encuentra ese nombre");
+			}
+		}
+		
+		
+		
+		
+		
 		
 	}
 
