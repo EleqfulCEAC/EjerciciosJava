@@ -199,7 +199,7 @@ public static void Ejercicio7() {
 		
 		for (int i = 0; i < boxOfNames.length; i++) {
 			savedname = boxOfNames[i];
-			if(savedname == NameToCompare) {
+			if(savedname.equals(NameToCompare)) {
 				System.out.println("El nombre " + NameToCompare + " si se encuentra dentro del array");	
 				break;
 			} else {
