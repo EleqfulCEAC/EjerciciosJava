@@ -51,6 +51,8 @@ public class EjerciciosDeArrays {
 			
 		}
 		
+		case 8: {
+			Ejercicio8(); }
 		}
 	
 		
@@ -189,9 +191,11 @@ public static void Ejercicio7() {
 		    boxOfNames[i] = Name;
 		
 		}
+		System.out.println(Arrays.toString(boxOfNames));
 		System.out.println("introduce el nombre que deseas verificar");
 		String NameToCompare = input.next();
 		String savedname = " ";
+		
 		
 		for (int i = 0; i < boxOfNames.length; i++) {
 			savedname = boxOfNames[i];
@@ -210,6 +214,30 @@ public static void Ejercicio7() {
 		
 		
 	}
+
+
+public static void Ejercicio8() {
+	int [] numberBox1 = generadorDeArray(5, 10);
+	int [] numberBox2= generadorDeArray(5, 10); 
+	int [] numberBox3 = new int[10]; 
+	int indice = 0;
+	
+	for (int i = 0; i < numberBox1.length; i++) {
+		numberBox3[i] = numberBox1[i];
+		
+	}
+	
+	for (int i = 5; i < numberBox3.length; i++) {
+		numberBox3[i] = numberBox2[indice];
+		indice++;
+		
+		
+	}
+	
+	System.out.println(Arrays.toString(numberBox3));
+	
+	
+}
 
 	
 //Global functions: 	
