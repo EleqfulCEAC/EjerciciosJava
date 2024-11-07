@@ -14,7 +14,13 @@ public class ejerciciosMatrices {
 			
 		  case 1:{
 			  Ejercicio1();
+			  break;
 			  
+		  }
+		  
+		  case 2:{
+			 Ejercicio2(); 
+			 
 		  }
 		
 		}
@@ -26,7 +32,7 @@ public class ejerciciosMatrices {
 	
 	
 	public static void Ejercicio1() {
-int [][] matriz = generadorDeMatriz(5, 5);
+int [][] matriz = generadorDeMatriz(5, 6);
 		
 		for (int x = 0; x < matriz.length; x++) {
 			for (int y = 0; y < matriz.length; y++) {
@@ -34,12 +40,32 @@ int [][] matriz = generadorDeMatriz(5, 5);
 			}
 		}
 		
-		for (int i = 0; i < matriz.length; i++) {
-			for (int j = 0; j < matriz.length; j++) {
-				System.out.print(matriz[i][j] + " ");
-			}
-			System.out.println();
+		showMatriz(matriz);
+		
+	}
+	public static void Ejercicio2() {
+		int [][] newMatriz = new int[5][5]; 
+        showMatriz(newMatriz);		
+        
+        int counterX = newMatriz.length;
+        boolean flag = false;
+        
+        for (int i = 0; i < newMatriz.length; i++) {
+        		if(counterX == newMatriz[i].length) {
+        			flag = true;
+        			
+        		}
+        		
+        	if(flag) {
+        		System.out.println("es cuadrada");
+        		
+        	} else {
+        		System.out.println("no es cuadrada");
+        		
+        	}
 		}
+       
+		
 		
 		
 	}
@@ -49,6 +75,19 @@ int [][] matriz = generadorDeMatriz(5, 5);
 		int [][] aux = new int[tamañoX][tamañoY];
 		return aux; 
 	} 
+	
+	
+	public static void showMatriz(int[][]m) {
+		
+		for (int i = 0; i < m.length; i++) {
+			for (int j = 0; j < m[i].length; j++) {
+				System.out.print(m[i][j] + " ");
+			}
+			System.out.println();
+		}
+		
+		
+	}
 
 
 }
