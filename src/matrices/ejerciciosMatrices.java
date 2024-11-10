@@ -35,6 +35,11 @@ public class ejerciciosMatrices {
 		  
 		  case 5: {
 			  Ejercicio5();
+			  break;
+		  }
+		  
+		  case 8:{
+			  ejercicio8();
 		  }
 		
 		}
@@ -155,6 +160,26 @@ int [][] matriz = generadorDeMatriz(5, 6);
 		}
 		showMatriz(matrix);
 	}
+	
+	
+	public static void ejercicio8() {
+			int [][] ventana  = generadorDeMatriz(8, 6);
+			showMatriz(ventana);
+			System.out.println("-----------------------") ;
+			
+			for (int rows = 0; rows < ventana.length; rows++) {
+				ventana[rows][0] =1;
+				ventana[rows][5] =1;
+				for (int cols = 0; cols < ventana[cols].length; cols++) {
+
+							ventana[0][cols] = 1;
+							ventana[7][cols] = 1;
+				}
+			}
+			
+			showMatriz(ventana);
+	}
+		
 	public static int[][] generadorDeMatriz(int tamañoX, int tamañoY) {
 		int [][] aux = new int[tamañoX][tamañoY];
 		return aux; 
