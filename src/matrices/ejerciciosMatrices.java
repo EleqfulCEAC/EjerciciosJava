@@ -167,13 +167,13 @@ int [][] matriz = generadorDeMatriz(5, 6);
 			showMatriz(ventana);
 			System.out.println("-----------------------") ;
 			
-			for (int rows = 0; rows < ventana.length; rows++) {
-				ventana[rows][0] =1;
-				ventana[rows][5] =1;
-				for (int cols = 0; cols < ventana[cols].length; cols++) {
+			for (int cols = 0; cols < ventana.length; cols++) {
+				ventana[cols][0] =1;
+				ventana[cols][5] =1;
+				for (int rows = 0; rows < ventana[rows].length; rows++) {
 
-							ventana[0][cols] = 1;
-							ventana[7][cols] = 1;
+							ventana[0][rows] = 1;
+							ventana[7][rows] = 1;
 				}
 			}
 			
