@@ -35,8 +35,26 @@ public class temaTryCatch {
 			 break;		
 		 }
 		 
+		 case 11: {
+			 try {
+				 	
+				 System.out.println("introduce una contraseña");
+				String password = sc.next(); 
+				 String validatedPassword = ejercicio11(password);
+				 System.out.println("Tu contraseña validada es: " + validatedPassword );
+				 
+			 } catch (Exception e) {
+				System.err.println(e.getMessage());
+				System.out.println("Vuelve a introducir la contraseña, esta vez de forma correcta");
+				
+				
+				
+		 }
+		 
 		 
 		
+		 } 
+		 
 		}
 		
 		
@@ -114,6 +132,40 @@ public class temaTryCatch {
 		
 		
 	}
+	
+	public static String ejercicio11(String password) throws Exception {
+		
+		String passwordToCheck = password; 
+		String numbers = ".*[0-9].*";
+		boolean hasUpperCase = false;
+		
+		for (int i = 0; i < passwordToCheck.length(); i++) {
+			char passwordChar = passwordToCheck.charAt(i);
+			
+			if(Character.isUpperCase(passwordChar)) {
+				hasUpperCase = true;
+				break;
+				
+			}
+			 }
+			
+		if(passwordToCheck.length() < 8) {
+			throw new Exception("La contraseña es muy corta, debe tener al menos 8 caracteres");
+		}
+		
+		if(!passwordToCheck.matches(numbers)) {
+			throw new Exception("La contraseña es muy corta, debe tener al menos un numero");
+		} 
+		
+		if(!hasUpperCase) {
+			throw new Exception("Debe tener al menos una letra en mayuscula");
+		}
+			
+		
+			
+		return passwordToCheck;
+	}
+	
 }
 
 
