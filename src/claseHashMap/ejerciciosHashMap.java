@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
 
 public class ejerciciosHashMap {
@@ -36,6 +37,11 @@ public class ejerciciosHashMap {
 		case 4: {
 
 			break;
+		}
+		
+		case 6: {
+			ejercicio6();
+			break;	
 		}
 
 		}
@@ -97,8 +103,29 @@ public class ejerciciosHashMap {
 
 	}
 	
-	public static void ejercicio3() {
+	public static void ejercicio6() {
+		//6.	Traducción de palabras: Diseña un HashMap que asocie palabras en un idioma con su traducción en otro. Realiza búsquedas de traducciones.
 		
+			HashMap<String, String> SpanishDiC = new HashMap<>();
+			for (int i = 0; i < 3; i++) {
+			System.out.println("Introduce la palabra en español");
+			String Definicion =  sc.next();
+			sc.nextLine();
+			System.out.println("Introduce la definicion en Japones ");
+			String Palabra = sc.next();
+			SpanishDiC.put(Palabra, Definicion);
+				
+			}
+			
+			System.out.println(SpanishDiC);
+			System.out.println("Introduce la palabra que deseas buscar su traduccion");
+			String definicioBuscar = sc.next();
+			if(SpanishDiC.containsKey(definicioBuscar)) {
+				System.out.println(SpanishDiC.get(definicioBuscar));
+			} else {
+				System.out.println("Esa palabra no la tengo");
+			}
+			
 	}
 		
 
