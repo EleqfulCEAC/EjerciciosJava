@@ -25,6 +25,10 @@ public class TemaClases {
 		System.out.println(movil2.Funcionaliades);
 		System.out.println(movil1.Marca.toUpperCase());
 		System.out.println(movil1.tactil);
+		
+		for (Object object : IphoneFuncionalidades) {
+			
+		}
 
 	}
 
