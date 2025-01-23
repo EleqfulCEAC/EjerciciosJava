@@ -162,26 +162,26 @@ public class juegoTraduccion {
 		System.out.println(morse);
 		
 		
-		for (int i = 0; i < morse.length(); i++) {
-			char letter = palabra.toUpperCase().charAt(i);
-			
-			if(Character.isWhitespace(letter)) {
-					letter = ' ';
-			}
-			
-			if(!LetrasToMorse.containsKey(letter)) {
-					throw new Exception("El caracter que haz introducido es incorrecto");
-			} 
-			
-			System.out.println(letter);
-			
-			String value = LetrasToMorse.get(letter);
-			traduccion.add(value);
-		}
-		
-		System.out.println("La palabra en codigo morse seria: " + traduccion);
-        
-        
+//		for (int i = 0; i < morse.length(); i++) {
+//			char letter = palabra.toUpperCase().charAt(i);
+//			
+//			if(Character.isWhitespace(letter)) {
+//					letter = ' ';
+//			}
+//			
+//			if(!LetrasToMorse.containsKey(letter)) {
+//					throw new Exception("El caracter que haz introducido es incorrecto");
+//			} 
+//			
+//			System.out.println(letter);
+//			
+//			String value = LetrasToMorse.get(letter);
+//			traduccion.add(value);
+//		}
+//		
+//		System.out.println("La palabra en codigo morse seria: " + traduccion);
+//        
+//        
         
 		
 	}
