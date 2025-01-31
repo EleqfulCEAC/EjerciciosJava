@@ -6,7 +6,6 @@ public class Jugador {
 	 
 	 public Jugador(boolean itsMyTurn) {
 		super();
-		this.itsMyTurn = itsMyTurn;
 		board.rellenarTablero();
 	}
 	 
@@ -16,16 +15,21 @@ public class Jugador {
 	}
 
 
-	public void atacar( int X, int Y) {
-		 board.comprobarDisparo(X, Y);
+	public Disparo atacar( int X, int Y) {
+		Disparo shoot = new Disparo(X, Y);
+		return shoot;
 	 }
 	 
-	 public void reciboDaño( int X, int Y) {
-		 if(board.getTablero()[X][Y].equals(Types.HUNDIDO)) {
+	 public void reciboDaño( Disparo disparoRecibido) {
+		 
+		 int coordX = disparoRecibido.getX();
+		 int coordY = disparoRecibido.getY();
+		 
+		 if(board.getTablero()[coordX][coordY].equals(Types.HUNDIDO)) {
 			 System.out.println("Daño recibido");
 		 }
 		 
-		 if(!board.getTablero()[X][Y].equals(Types.HUNDIDO)) {
+		 if(!board.getTablero()[coordX][coordY].equals(Types.HUNDIDO)) {
 			 System.out.println("Estoy bien, sin daños");
 		 }
 	 }

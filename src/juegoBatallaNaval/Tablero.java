@@ -51,11 +51,12 @@ public class Tablero {
 	}
 	
 	
-	public void comprobarDisparo(int x, int y) {
-		Disparo shoot = new Disparo(x, y);
+	public void comprobarDisparo(Disparo shoot) {
 		
 		int coordX = shoot.getX();
 		int coordY = shoot.getY();
+		
+		
 		
 		if(tablero[coordX][coordY] == Types.AGUA) {
 			tablero[coordX][coordY] = Types.FALLIDO;
@@ -66,6 +67,7 @@ public class Tablero {
 			tablero[coordX][coordY] = Types.HUNDIDO;
 			System.out.println("Disparo acertado");
 		}
+		
 		
 		
 	}
