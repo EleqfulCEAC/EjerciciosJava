@@ -15,15 +15,7 @@ public class pruebas {
 			System.out.println("Tablero del jugador 2");
 			player2Table.representarTablero();
 			System.out.println("------");
-			
-			
-			Disparo P1Shoot = player1.atacar(3, 2);
-			Disparo player2RecivedShoot = player2Table.comprobarDisparo(P1Shoot);
-			player2.reciboDaño(player2RecivedShoot);
-			Disparo P2Shoot = player2.atacar(1, 3);
-			Disparo player1RecivedShoot = player1Table.comprobarDisparo(P2Shoot);
-			player1.reciboDaño(player1RecivedShoot);
-			
+
 			
 
 	}
