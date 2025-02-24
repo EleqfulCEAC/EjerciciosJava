@@ -1,46 +1,20 @@
 package herencia;
 
-import java.util.List;
 
-public class pruebaClinica implements ClinicalFunctions {
+
+public class pruebaClinica {
 
     public static void main(String[] args) {
-            Pacientes Perro = new Pacientes(
-                    5,
-                     States.PENDIENTE,
-                    "Animal domestico de 4 patas",
-                    "Animal bastante sano que no presenta enfermedades",
-                    "Perro",
-                    true,
-                    "23-02-2021");
+        Pacientes Perro = new Pacientes( 25, States.EN_PROCESO,  "Animal de cuatro patas",  "25-12-05", "Perro", "Animal sano", true);
 
             Perro.showInfo();
 
+        Services Paciente25 = new Services(Perro.getID(), States.EN_PROCESO, "Servicios del paciente", LevelOfDifficult.INTERMEDIO, 60, true, "Varios" );
 
-   ; }
+                Paciente25.addAgenda(Perro);
+                Paciente25.changeState(Perro, States.REVISADO);
 
-    @Override
-    public void openClinic(boolean itsOpen) {
-        itsOpen = !itsOpen;
-    }
+                Perro.showInfo();}
 
-    @Override
-    public void addAgenda(List Agenda, Pacientes paciente) {
-        Agenda.add(paciente);
-    }
 
-    @Override
-    public void changeState(States estado, States NewState) {
-            estado = NewState;
-    }
-
-    @Override
-    public void changeService(String Service) {
-
-    }
-
-    @Override
-    public void updateDificult(LevelOfDifficult difficult) {
-
-    }
 }
