@@ -4,89 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0df8c9e8-76e9-470f-bf63-46935456f91b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/herencia/ClinicaVeterinaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/herencia/ClinicalFunctions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/herencia/LevelOfDifficult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/herencia/Pacientes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/herencia/Services.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/herencia/States.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/herencia/pruebaClinica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ArrayListEjemplos/ArrayListEjemplos.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ArrayListEjemplos/ArrayListEjemplos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ConjuntoDeEjercicios/ConjuntoDeEjercicios.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ConjuntoDeEjercicios/ConjuntoDeEjercicios.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Ejercicio2/Ejercicio2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Ejercicio2/Ejercicio2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Ejercicio3/Ejercicio3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Ejercicio3/Ejercicio3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Ejercicio4/Ejercicio4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Ejercicio4/Ejercicio4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Ejercicio5/Ejercicio5.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Ejercicio5/Ejercicio5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/EntradaDatos/EntradaDatos.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/EntradaDatos/EntradaDatos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/FJHFYFYF/Estudiante.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/FJHFYFYF/Estudiante.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/POO/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/POO/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/POO/Movil.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/POO/Movil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/POO/Persona.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/POO/Persona.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/POO/TemaClases.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/POO/TemaClases.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/TemaArrays/Arrays_Clase1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/TemaArrays/Arrays_Clase1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/TemaArrays/EjerciciosDeArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/TemaArrays/EjerciciosDeArrays.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/cajaDePruebas/cajaDePruebas.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/cajaDePruebas/cajaDePruebas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/claseHashMap/claseHashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/claseHashMap/claseHashMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/claseHashMap/ejerciciosHashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/claseHashMap/ejerciciosHashMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/clases2/Alumno.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/clases2/Alumno.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/clases2/Aula.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/clases2/Aula.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/clases2/Bank.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/clases2/Bank.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/clases2/Empleado.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/clases2/Empleado.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/clases2/Libro.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/clases2/Libro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/clases2/Notas.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/clases2/Notas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/clases2/Persona.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/clases2/Persona.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/clases2/Producto.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/clases2/Producto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/clases2/Vehiculo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/clases2/Vehiculo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/clases2/pruebaBanco.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/clases2/pruebaBanco.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/clases2/pruebaEmpleado.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/clases2/pruebaEmpleado.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/clases2/pruebaLibro.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/clases2/pruebaLibro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/clases2/pruebaPersona.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/clases2/pruebaPersona.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/clases2/pruebaVehiculo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/clases2/pruebaVehiculo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/clases2/pruebasGeneral.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/clases2/pruebasGeneral.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/clases2/pruebasProducto.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/clases2/pruebasProducto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ejerciciosClases2/ejercicio1/Curso.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ejerciciosClases2/ejercicio1/Curso.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ejerciciosClases2/ejercicio1/Estudiante.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ejerciciosClases2/ejercicio1/Estudiante.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ejerciciosClases2/ejercicio1/cajaPruebas.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ejerciciosClases2/ejercicio1/cajaPruebas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/empresa/Asalariado.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/empresa/Asalariado.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/empresa/diaDeCobranza.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/empresa/diaDeCobranza.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/empresa/ePorHoras.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/empresa/ePorHoras.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/empresa/empleado.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/empresa/empleado.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/interfaces/IcreditCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interfaces/IcreditCard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/interfaces/tarjetaBancariaTradeRepublic.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interfaces/tarjetaBancariaTradeRepublic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/juegoBatallaNaval/Disparo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/juegoBatallaNaval/Disparo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/juegoBatallaNaval/Jugador.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/juegoBatallaNaval/Jugador.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/juegoBatallaNaval/Tablero.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/juegoBatallaNaval/Tablero.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/juegoBatallaNaval/Types.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/juegoBatallaNaval/Types.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/juegoBatallaNaval/pruebas.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/juegoBatallaNaval/pruebas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/juegoDelAhorcado/game.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/juegoDelAhorcado/game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/juegoTraduccion/juegoTraduccion.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/juegoTraduccion/juegoTraduccion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/matrices/ejerciciosMatrices.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/matrices/ejerciciosMatrices.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/module-info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/restaurante/Estados.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/restaurante/Estados.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/restaurante/Pedido.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/restaurante/Pedido.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/restaurante/Producto.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/restaurante/Producto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/restaurante/consumirRestaurante.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/restaurante/consumirRestaurante.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/restaurante/pedidoLlevar.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/restaurante/pedidoLlevar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/restaurante/salaDelRestaurante.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/restaurante/salaDelRestaurante.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/temaTryCatch/temaTryCatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/temaTryCatch/temaTryCatch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/tiendaOnline/creditCardPayment.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tiendaOnline/creditCardPayment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/tiendaOnline/metodosDePago.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tiendaOnline/metodosDePago.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/tiendaOnline/paypalPayment.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tiendaOnline/paypalPayment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/todoList/EstadoTareas.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/todoList/EstadoTareas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/todoList/ListaDeTareas.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/todoList/ListaDeTareas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/todoList/Tarea.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/todoList/Tarea.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/todoList/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/todoList/Usuario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/todoList/pruebas.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/todoList/pruebas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/tresEnRaya/tresEnRaya.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tresEnRaya/tresEnRaya.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/zoologico/Aguila.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/zoologico/Aguila.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/zoologico/Ianimal.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/zoologico/Ianimal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/zoologico/Leon.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/zoologico/Leon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/zoologico/visitaAlZoologico.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/zoologico/visitaAlZoologico.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/juegoBatallaNaval/pruebas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/juegoBatallaNaval/pruebas.java" afterDir="false" />
+    <list default="true" id="0df8c9e8-76e9-470f-bf63-46935456f91b" name="Changes" comment="Añadiendo intellij y herencia">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/herencia/pruebaClinica.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/herencia/pruebaClinica.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/herencia/ClinicaVeterinaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/herencia/ClinicaVeterinaria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/herencia/ClinicalFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/herencia/ClinicalFunctions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/herencia/Pacientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/herencia/Pacientes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/herencia/Services.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/herencia/Services.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/herencia/pruebaClinica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/herencia/pruebaClinica.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +28,24 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="intelliJ" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -125,18 +68,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.pruebaClinica.executor": "Run",
-    "Application.salaDelRestaurante.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.pruebaClinica.executor&quot;: &quot;Run&quot;,
+    &quot;Application.salaDelRestaurante.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;intelliJ&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Application.pruebaClinica">
+    <configuration name="pruebaClinica" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="herencia.pruebaClinica" />
+      <module name="EjerciciosJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="herencia.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="salaDelRestaurante" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="restaurante.salaDelRestaurante" />
       <module name="EjerciciosJava" />
@@ -152,6 +108,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.pruebaClinica" />
         <item itemvalue="Application.salaDelRestaurante" />
       </list>
     </recent_temporary>
@@ -165,6 +122,67 @@
       <option name="presentableId" value="Default" />
       <updated>1740097125157</updated>
     </task>
+    <task id="LOCAL-00001" summary="Añadiendo intellij y herencia">
+      <option name="closed" value="true" />
+      <created>1740267716134</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1740267716134</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Añadiendo intellij y herencia">
+      <option name="closed" value="true" />
+      <created>1740267743670</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1740267743670</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="intelliJ" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updating from pc home" />
+    <MESSAGE value="Añadiendo" />
+    <MESSAGE value="Añadiendo intellij y herencia" />
+    <option name="LAST_COMMIT_MESSAGE" value="Añadiendo intellij y herencia" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/herencia/pruebaClinica.java</url>
+          <line>9</line>
+          <properties class="herencia.pruebaClinica" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,19 +1,17 @@
 package herencia;
 
-import java.util.List;
-
 public class Pacientes extends ClinicaVeterinaria {
     private String DateOfAlta;
     private String typeOfAnimal;
     private String medicalHistory;
     private boolean easyWorkAnimal;
 
-    public Pacientes(int ID, States estado, String description,  String medicalHistory, String typeOfAnimal, boolean easyWorkAnimal, String dateOfAlta) {
-        super(ID, estado, description);
-        this.medicalHistory = medicalHistory;
+    public Pacientes(int id, States Estado, String description, String dateOfAlta, String typeOfAnimal, String medicalHistory, boolean easyWorkAnimal) {
+        super(id, Estado, description);
+        DateOfAlta = dateOfAlta;
         this.typeOfAnimal = typeOfAnimal;
+        this.medicalHistory = medicalHistory;
         this.easyWorkAnimal = easyWorkAnimal;
-        this.DateOfAlta = dateOfAlta;
     }
 
     public void showInfo(){
@@ -23,4 +21,5 @@ public class Pacientes extends ClinicaVeterinaria {
         System.out.println("Fecha de alta: " + this.DateOfAlta);
         System.out.println("Historial medico: " + this.medicalHistory);
     }
+
 }
