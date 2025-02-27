@@ -10,6 +10,7 @@ public class claseHashMap {
 		String frase = "Hola buenos dias";
 		Number Counter = 0;
 		List<String> key = new ArrayList<>();
+		dicc.keySet();
 		
 		for (int i = 0; i < frase.length(); i++) {
 			String value = frase.charAt(i) + "";

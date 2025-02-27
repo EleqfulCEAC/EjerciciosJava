@@ -4,11 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public  class ClinicaVeterinaria {
-    public int ID;
-    public String Description;
-    public States Estado;
+    protected int ID;
+    protected String Description;
+    protected States Estado;
 
     public ClinicaVeterinaria(int id, States Estado, String description) {
+    	this.ID= id;
+    	this.Description = description;
         if(Estado == null) {
             this.Estado = States.PENDIENTE;
         } else {

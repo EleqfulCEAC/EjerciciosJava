@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Services extends ClinicaVeterinaria implements ClinicalFunctions{
-    private List Agenda = new ArrayList<Pacientes>();
+    private List<Pacientes> Agenda;
     private LevelOfDifficult difficult;
     private int Duration;
     private boolean itsOpen;
@@ -12,6 +12,7 @@ public class Services extends ClinicaVeterinaria implements ClinicalFunctions{
 
     public Services(int id, States state, String description, LevelOfDifficult difficult, int duration, boolean itsOpen, String clinicServices) {
         super(id, state, description);
+        this.Agenda = new ArrayList<Pacientes>();
         this.difficult = difficult;
         Duration = duration;
         this.itsOpen = itsOpen;
@@ -19,11 +20,11 @@ public class Services extends ClinicaVeterinaria implements ClinicalFunctions{
         this.clinicServices = clinicServices;
     }
 
-    public List getAgenda() {
+    public List<Pacientes> getAgenda() {
         return Agenda;
     }
 
-    public void setAgenda(List agenda) {
+    public void setAgenda(List<Pacientes> agenda) {
         Agenda = agenda;
     }
 
