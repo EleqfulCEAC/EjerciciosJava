@@ -13,18 +13,13 @@ public class Dinamicos extends GestorEventos {
 	
 
 	public Dinamicos(int idEvento, String nombre, GestorTypes typeGestor, String horaDelEvento, String duracion,
-			EventState estadoActual, DynamicTypes tipoDeEvento) {
-		super(idEvento, nombre, typeGestor, horaDelEvento, duracion, estadoActual);
+			EventState estadoActual, double costo, DynamicTypes tipoDeEvento) {
+		super(idEvento, nombre, typeGestor, horaDelEvento, duracion, estadoActual, costo);
 		this.tipoDeEvento = tipoDeEvento;
 		this.Materiales = new ArrayList<String>();
 	}
-
-
 	
 
-	
-	
-	
 	public void addMateriales(String Material) {
 		this.Materiales.add(Material);
 		
